@@ -1,0 +1,29 @@
+.convertHTML {
+  padding: 20px;
+}
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  color: blue;
+}
+.description {
+  font-size: 14px;
+  color: #888;
+}
+#table {
+  width: 100%;
+  tr:nth-of-type(even) {
+    background-color: #dcdcdc;
+  }
+  th,
+  td {
+    font-size: 12px;
+  }
+}
+.page-break {
+  page-break-after: always;
+}
+
+.description {
+  @apply py-5;
+}
